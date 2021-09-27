@@ -2,7 +2,7 @@ package algo1;
 
 import java.util.Scanner;
 
-
+//3.문장 속 단어
 public class Main3 {
     public static void main(String[] args) {
 

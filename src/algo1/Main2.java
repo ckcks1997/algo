@@ -3,7 +3,7 @@ package algo1;
 import java.util.Scanner;
 
 
-
+//2.대소문자 변환
 public class Main2 {
     public static void main(String[] args) {
 
