@@ -8,7 +8,7 @@ package algo7_recursive_tree_graph;
 public class Main4 {
 
     static int[] fibo;
-    
+
     public int solution(int n){
         if(fibo[n]>0) return fibo[n];
         if(n==1 || n==2) return 1;
