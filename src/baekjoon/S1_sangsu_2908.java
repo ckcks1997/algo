@@ -1,9 +1,8 @@
 package baekjoon;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class s1_sangsu_2908 {
+public class S1_sangsu_2908 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String a = scanner.next();

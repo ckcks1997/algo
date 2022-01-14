@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 //간단한 완전탐색 문제
-public class s1_satang_14568 {
+public class S1_satang_14568 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

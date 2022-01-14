@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class s1_binary_3460 {
+public class S1_binary_3460 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

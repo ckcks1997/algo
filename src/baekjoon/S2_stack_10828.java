@@ -3,7 +3,7 @@ package baekjoon;
 import java.util.*;
 import java.io.*;
 
-public class s2_stack_10828 {
+public class S2_stack_10828 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter (new OutputStreamWriter(System.out));

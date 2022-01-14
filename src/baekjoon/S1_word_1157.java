@@ -3,7 +3,7 @@ package baekjoon;
 import java.util.Scanner;
 
 
-public class s1_word_1157 {
+public class S1_word_1157 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String inputVal = scanner.nextLine();

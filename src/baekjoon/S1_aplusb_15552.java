@@ -5,7 +5,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 //BufferedReader와 writer 적용 문제
-public class s1_aplusb_15552 {
+public class S1_aplusb_15552 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter (new OutputStreamWriter(System.out));
