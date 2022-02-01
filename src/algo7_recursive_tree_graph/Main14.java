@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-//14. 경로탐색(인접리스트, ArrayList)
+//14. 경로탐색(BFS)
 public class Main14 {
 
     static int n, m;
