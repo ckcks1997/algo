@@ -14,16 +14,40 @@ import java.util.*;
 
 public class Main3 {
 
+    class Time2 implements Comparable<Time2>{
+        int time;
+        int alphabet; // 0=s/1=e
+
+        public Time2(int time, int alphabet) {
+            this.time = time;
+            this.alphabet = alphabet;
+        }
+
+        @Override
+        public String toString() {
+            return "Time2{" +
+                    "time=" + time +
+                    ", alphabet=" + alphabet +
+                    '}';
+        }
+
+        @Override
+        public int compareTo(Time2 o) {
+            if(this.time!= o.time) return this.time - o.time;
+            else return o.alphabet - this.alphabet;
+        }
+    }
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
+        Main3 T = new Main3();
         int size = in.nextInt();
         ArrayList<Time2> list = new ArrayList<>(); //이걸 왜 LinkedList로 했지..
         for (int i = 0; i < size; i++) {
             int s = in.nextInt();
             int e = in.nextInt();
-            list.add(new Time2(s,0));
-            list.add(new Time2(e,1));
+            list.add(T.new Time2(s,0));
+            list.add(T.new Time2(e,1));
         }
 
         Collections.sort(list);
@@ -36,29 +60,5 @@ public class Main3 {
             if(max<cnt) max = cnt;
         }
         System.out.println(max);
-    }
-}
-
-class Time2 implements Comparable<Time2>{
-    int time;
-    int alphabet; // 0=s/1=e
-
-    public Time2(int time, int alphabet) {
-        this.time = time;
-        this.alphabet = alphabet;
-    }
-
-    @Override
-    public String toString() {
-        return "Time2{" +
-                "time=" + time +
-                ", alphabet=" + alphabet +
-                '}';
-    }
-
-    @Override
-    public int compareTo(Time2 o) {
-        if(this.time!= o.time) return this.time - o.time;
-        else return o.alphabet - this.alphabet;
     }
 }
